@@ -1,12 +1,9 @@
-require_relative "./lib/midtown_scraper"
-require_relative "./lib/fivetwo_scraper"
+require_relative "./lib/scraper"
 
-puts "Hello World!"
+midtown_commons = Scraper.new("midtowncommons")
+midtown_commons.scrape
+puts midtown_commons.results
 
-# midtown_commons = MidtownScraper.new
-# midtown_commons.scrape
-# puts midtown_commons.results
-
-fivetwo = FiveTwoScraper.new
+fivetwo = Scraper.new("fivetwoapartments")
 fivetwo.scrape
 puts fivetwo.results

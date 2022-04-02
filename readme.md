@@ -8,3 +8,7 @@ Instead of checking these pages daily, this scraper surfaces the relevant inform
 * Ruby 3.1.1
 * Nokogiri
 
+### Life made easier by
+
+* StandardRB
+* Pry
